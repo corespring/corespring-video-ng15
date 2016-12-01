@@ -1,0 +1,19 @@
+{
+  "pies": [
+    {
+      "id": "1",
+      "pie": {
+        "name": "corespring-video-ng15",
+        "version": "1.0.0"
+      },
+      "model": {
+        "config": {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=MFYmCrs5T1k",
+          "ratioType": "standard",
+          "size": "medium"
+        }
+      }
+    }
+  ]
+}
