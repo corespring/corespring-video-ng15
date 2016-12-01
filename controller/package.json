@@ -4,6 +4,6 @@
   "private": true,
   "main": "src/controller.js",
   "dependencies": {
-    "corespring-legacy-video": "PieLabs/corespring-legacy-video"
+    "corespring-legacy-video": "corespring/corespring-legacy-video"
   }
 }
