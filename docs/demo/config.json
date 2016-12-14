@@ -1,11 +1,14 @@
 {
-  "pies": [
+  "langs": [
+    "en-US"
+  ],
+  "elements" : {
+    "corespring-video-ng15": "../.."
+  },
+  "models": [
     {
       "id": "1",
-      "pie": {
-        "name": "corespring-video-ng15",
-        "version": "1.0.0"
-      },
+      "element": "corespring-video-ng15",
       "model": {
         "config": {
           "type": "youtube",
