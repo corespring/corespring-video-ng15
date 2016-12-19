@@ -6,6 +6,7 @@
     "babel-core": "^6.17.0",
     "babel-loader": "^6.2.5",
     "babel-preset-react": "^6.16.0",
+    "corespring-choice": "PieElements/corespring-choice",
     "corespring-video-ng15": "../..",
     "css-loader": "^0.25.0",
     "file-loader": "^0.9.0",

@@ -3,7 +3,8 @@
     "en-US"
   ],
   "elements" : {
-    "corespring-video-ng15": "../.."
+    "corespring-video-ng15": "../..",
+    "corespring-choice": "PieElements/corespring-choice"
   },
   "models": [
     {
@@ -12,10 +13,57 @@
       "model": {
         "config": {
           "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=MFYmCrs5T1k",
+          "url": "https://www.youtube.com/watch?v=DjjoHhLGgGc",
           "ratioType": "standard",
           "size": "medium"
         }
+      }
+    },
+    {
+      "id": "2",
+      "element": "corespring-choice",
+      "correctResponse": [
+        "mc_6"
+      ],
+      "feedback": {
+        "mc_1": "“Making a miniature copy or representation of something” is one meaning of “modeling,” but the scientists in the video do not use this meaning of the word “modeling.”",
+        "mc_2": "“Being the subject for an artist, sculptor, or photographer” is one meaning of “modeling,” but the scientists in the video do not use this meaning of the word “modeling.”",
+        "mc_3": "“Displaying items on one’s person for the benefit of potential consumers” focuses on a business-related definition of the word, rather than the meaning used in the context of the video.",
+        "mc_4": "“Creating a small version of a planned sculpture, often in wax or clay” is one definition of “modeling,” but the scientists in the video do not use this meaning of the word “modeling.”",
+        "mc_5": "“Structuring an organization so that it functions at greatest effectiveness” is one definition of “modeling” but is not the meaning used in the context of the video.",
+        "mc_6": "This is the correct answer. The scientist explains how establishing chronologies of past events (“modeling”) can be developed into theories and applied to new civilizations"
+      },
+      "model": {
+        "prompt": "What do the researchers in the video most likely mean when they use the term “modeling”?​",
+        "choiceMode": "radio",
+        "keyMode": "letters",
+        "disabled": false,
+        "choices": [
+          {
+            "label": "Making a miniature copy or representation of something",
+            "value": "mc_1"
+          },
+          {
+            "label": "Being the subject for an artist, sculptor, or photographer",
+            "value": "mc_2"
+          },
+          {
+            "label": "Displaying items on one’s person for the benefit of potential consumers",
+            "value": "mc_3"
+          },
+          {
+            "label": "Creating a small version of a planned sculpture, often in wax or clay",
+            "value": "mc_4"
+          },
+          {
+            "label": "Structuring an organization so that it functions at greatest effectiveness",
+            "value": "mc_5"
+          },
+          {
+            "label": "Analyzing past and current trends in an attempt to predict future ones",
+            "value": "mc_6"
+          }
+        ]
       }
     }
   ]
